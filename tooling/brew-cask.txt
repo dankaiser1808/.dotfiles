@@ -1,0 +1,15 @@
+discord
+docker
+font-hack-nerd-font
+google-chrome
+iterm2
+obsidian
+postman
+raspberry-pi-imager
+rectangle
+rectangle-pro
+spotify
+steam
+utm
+visual-studio-code
+zoom

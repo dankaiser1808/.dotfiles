@@ -1,0 +1,41 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Everforest Dark",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "files.trimTrailingWhitespace": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.kubeconfig": "/Users/dkai/Projects/FINAL/analytics-platform/terraform/environments/dev/otc-kubeconfig.json",
+        "vs-kubernetes.knownKubeconfigs": [
+            "/Users/dkai/Projects/apnew/analytics-platform/otc-kubeconfig.json",
+            "/Users/dkai/.kube/config",
+            "/Users/dkai/Projects/FINAL/analytics-platform/terraform/environments/prod/otc-kubeconfig.json",
+            "/Users/dkai/Projects/FINAL/analytics-platform/terraform/environments/dev/otc-kubeconfig.json",
+            "/Users/dkai/Projects/analytics-platform/terraform/environments/prod/otc-kubeconfig.json",
+            "/Users/dkai/Projects/ftest-analytics-otc-kubeconfig.yaml"
+        ]
+    },
+    "vscode-kubernetes.log-viewer.follow": false,
+    "vscode-kubernetes.log-viewer.timestamp": false,
+    "vscode-kubernetes.log-viewer.since": -1,
+    "vscode-kubernetes.log-viewer.tail": -1,
+    "vscode-kubernetes.log-viewer.destination": "Webview",
+    "vscode-kubernetes.log-viewer.wrap": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "go": false
+    },
+    "yaml.customTags": [
+        "!reference sequence"
+    ],
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontWeight": "bold",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": {
+        "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
+    }
+}

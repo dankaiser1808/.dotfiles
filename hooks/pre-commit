@@ -1,0 +1,5 @@
+#!/bin/bash
+
+code --list-extensions > ~/.dotfiles/tooling/vscode-extensions.txt
+brew list --installed-on-request > ~/.dotfiles/tooling/brew-formula.txt
+brew list --cask > ~/.dotfiles/tooling/brew-cask.txt
