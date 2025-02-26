@@ -37,5 +37,8 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.editorAssociations": {
         "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
-    }
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticSeverityOverrides": {},
+    "python.analysis.typeCheckingMode": "basic"
 }
