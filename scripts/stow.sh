@@ -21,10 +21,7 @@ if [[ "$STOW_DOTFILES_BACKUP" == "TRUE" ]]; then
 fi
 
 echo "create symlinks with stow"
-for dir in "${HOME}/.dotfiles/stow"/*; do
-    stow --target="$HOME" --adopt --dir="${HOME}/.dotfiles/stow" "$dir"
-done
-
+stow --target="$HOME" --adopt --dir="${HOME}/.dotfiles/stow" .
 stow --target="$HOME/.dotfiles/.git/hooks" --adopt --dir="$HOME/.dotfiles" hooks
 
 #since adopt overrides our dotfiles with the existing files and links them, we can reset the repo so the changes from the dotfiles repo will apply.
